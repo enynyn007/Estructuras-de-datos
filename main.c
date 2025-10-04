@@ -289,4 +289,7 @@ void menu() {
                 eliminarDelFinal(lista);
                 break;
             case 6:
-                printf
+                printf("Ingrese posición: ");
+                scanf("%d", &posicion);
+                eliminarEnPosicion(lista, posicion);
+                break;
